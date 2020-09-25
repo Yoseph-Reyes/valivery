@@ -1,13 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+html{
+  height: 100%;
+}
+h1{
+  float:left;
+  height: 25%;
+  color: white;
+  text-align: left;
+  font-family: 'Lobster', cursive;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background: linear-gradient(45deg,#003049ff 0%, #d62828ff 50%,#f77f00ff 100%);
+  /*PALETA DE COLORES
+  --prussian-blue: #003049ff;
+  --maximum-red: #d62828ff;
+  --orange: #f77f00ff;
+  --maximum-yellow-red: #fcbf49ff;
+  --lemon-meringue: #eae2b7ff;*/
+}
+.Login{  
+  background-color: #fcbf49ff;
+  border-radius: 1rem;
+  padding: 10px !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Container{
+  background-color: #afa988;
+  padding: 1rem !important;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  min-height: 70vh;
+  
 }
